@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Courses - Ferlah Apparel Tech</title>
+    <link rel="stylesheet" href="styles/header.css"> <!-- Base header (solid) -->
+    <link rel="stylesheet" href="styles/courses.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/animations.css"> <!-- General page animations -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+    <header> <!-- Standard solid header -->
+        <nav class="navbar">
+            <a href="index.html" class="logo-link">
+                <div class="logo-container">
+                    <img src="Images/home-page/logo.png" alt="Ferlah Logo" class="logo-image load-anim-pop-in">
+                </div>
+            </a>
+            <ul class="nav-links">
+                <li class="load-anim-slide-down load-delay-1"><a href="index.html">Home Page</a></li>
+                <li class="load-anim-slide-down load-delay-2"><a href="courses.html" class="active-nav-link">Courses</a></li>
+                <li class="load-anim-slide-down load-delay-3"><a href="gallery.html">Gallery</a></li>
+                <li class="load-anim-slide-down load-delay-4"><a href="about.html">About us</a></li>
+                <li class="load-anim-slide-down load-delay-5"><a href="contact.html">Contact us</a></li>
+            </ul>
+            <button class="hamburger" id="hamburger-button" aria-label="Toggle navigation" aria-expanded="false">
+                <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+            </button>
+        </nav>
+    </header>
+
+    <main class="courses-page-content">
+        <section class="page-hero-section"> <!-- Consistent hero section class -->
+            <div class="page-hero-content"> <!-- Wrapper for content -->
+                <h1 class="main-page-title animate-on-scroll anim-slide-down">Our Courses</h1>
+                <p class="page-subtitle animate-on-scroll anim-slide-up delay-1">Explore our range of expert-led apparel design and technology courses.</p>
+            </div>
+        </section>
+
+        <section class="course-grid-section">
+            <div class="container">
+                <div class="course-grid">
+                    <!-- Course Card 1 -->
+                    <div class="course-card animate-on-scroll anim-fade-in delay-1">
+                        <div class="course-card-image-container">
+                            <img src="Images/home-page/dummy-500-700.png" alt="Beginner's Sewing & Pattern Making Course" class="course-banner-image">
+                        </div>
+                        <div class="course-card-content">
+                            <h2 class="course-title">Beginner's Sewing & Pattern Making</h2>
+                            <div class="course-meta">
+                                <span class="course-duration"><i class="fas fa-clock"></i> 8 Weeks</span>
+                                <span class="course-level"><i class="fas fa-layer-group"></i> Beginner</span>
+                            </div>
+                            <p class="course-description">
+                                Master the fundamentals of sewing, understand your machine, and learn to draft basic patterns. Perfect for absolute beginners!
+                            </p>
+                            <div class="course-price">RS 1000</div>
+                            <a href="course-detail-1.html" class="btn btn-enroll">Learn More & Enroll</a>
+                        </div>
+                    </div>
+
+                    <!-- Course Card 2 -->
+                    <div class="course-card animate-on-scroll anim-fade-in delay-2">
+                        <div class="course-card-image-container">
+                            <img src="Images/home-page/dummy-500-700.png" alt="Advanced Garment Construction Course" class="course-banner-image">
+                        </div>
+                        <div class="course-card-content">
+                            <h2 class="course-title">Advanced Garment Construction</h2>
+                            <div class="course-meta">
+                                <span class="course-duration"><i class="fas fa-clock"></i> 12 Weeks</span>
+                                <span class="course-level"><i class="fas fa-layer-group"></i> Advanced</span>
+                            </div>
+                            <p class="course-description">
+                                Dive into complex garment construction techniques, tailoring, and advanced finishing for a professional touch.
+                            </p>
+                            <div class="course-price">RS 1200</div>
+                            <a href="course-detail-2.html" class="btn btn-enroll">Learn More & Enroll</a>
+                        </div>
+                    </div>
+
+                    <!-- Course Card 3 -->
+                    <div class="course-card animate-on-scroll anim-fade-in delay-3">
+                        <div class="course-card-image-container">
+                            <img src="Images/home-page/dummy-500-700.png" alt="Digital Fashion Design (CAD) Course" class="course-banner-image">
+                        </div>
+                        <div class="course-card-content">
+                            <h2 class="course-title">Digital Fashion Design (CAD)</h2>
+                            <div class="course-meta">
+                                <span class="course-duration"><i class="fas fa-clock"></i> 10 Weeks</span>
+                                <span class="course-level"><i class="fas fa-layer-group"></i> Intermediate</span>
+                            </div>
+                            <p class="course-description">
+                                Learn to use industry-standard software for digital pattern making, 3D sampling, and fashion illustration.
+                            </p>
+                            <div class="course-price">RS 1500</div>
+                            <a href="course-detail-3.html" class="btn btn-enroll">Learn More & Enroll</a>
+                        </div>
+                    </div>
+
+                    <!-- Course Card 4 -->
+                     <div class="course-card animate-on-scroll anim-fade-in delay-4">
+                        <div class="course-card-image-container">
+                            <img src="Images/home-page/dummy-500-700.png" alt="Sustainable Fashion Practices Course" class="course-banner-image">
+                        </div>
+                        <div class="course-card-content">
+                            <h2 class="course-title">Sustainable Fashion Practices</h2>
+                             <div class="course-meta">
+                                <span class="course-duration"><i class="fas fa-clock"></i> 6 Weeks</span>
+                                <span class="course-level"><i class="fas fa-layer-group"></i> All Levels</span>
+                            </div>
+                            <p class="course-description">
+                                Explore eco-friendly materials, zero-waste design, and ethical production in the modern fashion industry.
+                            </p>
+                            <div class="course-price">RS 900</div>
+                            <a href="course-detail-4.html" class="btn btn-enroll">Learn More & Enroll</a>
+                        </div>
+                    </div>
+                    <!-- Add more course cards here if needed by copying the structure above and adjusting delay-X, image paths, and text -->
+                                          <div class="course-card animate-on-scroll anim-fade-in delay-4">
+                        <div class="course-card-image-container">
+                            <img src="Images/home-page/dummy-500-700.png" alt="Sustainable Fashion Practices Course" class="course-banner-image">
+                        </div>
+                        <div class="course-card-content">
+                            <h2 class="course-title">Sustainable Fashion Practices</h2>
+                             <div class="course-meta">
+                                <span class="course-duration"><i class="fas fa-clock"></i> 6 Weeks</span>
+                                <span class="course-level"><i class="fas fa-layer-group"></i> All Levels</span>
+                            </div>
+                            <p class="course-description">
+                                Explore eco-friendly materials, zero-waste design, and ethical production in the modern fashion industry.
+                            </p>
+                            <div class="course-price">RS 900</div>
+                            <a href="course-detail-4.html" class="btn btn-enroll">Learn More & Enroll</a>
+                        </div>
+                    </div>
+
+                                         <div class="course-card animate-on-scroll anim-fade-in delay-4">
+                        <div class="course-card-image-container">
+                            <img src="Images/home-page/dummy-500-700.png" alt="Sustainable Fashion Practices Course" class="course-banner-image">
+                        </div>
+                        <div class="course-card-content">
+                            <h2 class="course-title">Sustainable Fashion Practices</h2>
+                             <div class="course-meta">
+                                <span class="course-duration"><i class="fas fa-clock"></i> 6 Weeks</span>
+                                <span class="course-level"><i class="fas fa-layer-group"></i> All Levels</span>
+                            </div>
+                            <p class="course-description">
+                                Explore eco-friendly materials, zero-waste design, and ethical production in the modern fashion industry.
+                            </p>
+                            <div class="course-price">RS 900</div>
+                            <a href="course-detail-4.html" class="btn btn-enroll">Learn More & Enroll</a>
+                        </div>
+                    </div>
+
+                    
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+    <div class="container">
+        <div class="footer-grid">
+            <div class="footer-column animate-on-scroll anim-fade-in delay-1">
+                <h4 class="footer-title">About Us</h4>
+                <p class="footer-about-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Quis ipsum
+                    suspendisse ultrices gravida. lacus vel facilisis.
+                    <a href="about.html" class="read-more-link">(read more)</a>
+                </p>
+                <div class="social-icons">
+                    <a href="https://web.facebook.com/ferlafashion" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="#" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-column animate-on-scroll anim-fade-in delay-2">
+                <h4 class="footer-title">Affiliated Links</h4>
+                <ul class="footer-links">
+                    <li><a href="index.html">Home Page</a></li>
+                    <li><a href="courses.html">Courses</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-column animate-on-scroll anim-fade-in delay-3">
+                <h4 class="footer-title">Get in Touch</h4>
+                <ul class="footer-contact-info">
+                    <li>
+                        <i class="fas fa-phone-alt"></i>
+                        <span>+94 100 100 1000</span>
+                    </li>
+                    <li>
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>100/100 dummy rd, colombo 06</span>
+                    </li>
+                    <li>
+                        <i class="fas fa-envelope"></i>
+                        <span>info@ferlaapparel.com</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <hr class="footer-divider animate-on-scroll anim-fade-in delay-4">
+        <div class="footer-bottom animate-on-scroll anim-fade-in delay-5">
+            <p>© <span id="current-year">2023</span> Ferla Appare Tech. All Rights Reserved. Designed by <a href="https://viuzeres.com" target="_blank" rel="noopener noreferrer">Viuzeres</a></p>
+        </div>
+    </div>
+    </footer>
+
+<script src="script/header.js"></script>
+<script src="script/homepage.js"></script> <!-- For scroll animations -->
+<script src="script/footer.js"></script>
+</body>
+</html>

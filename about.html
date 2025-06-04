@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Ferlah Apparel Tech</title>
+    <link rel="stylesheet" href="styles/header.css"> <!-- Base header (solid by default) -->
+    <link rel="stylesheet" href="styles/about.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/animations.css"> <!-- General page animations -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <header> <!-- Will be solid as header-homepage-animation.css is not linked -->
+        <nav class="navbar">
+            <a href="index.html" class="logo-link">
+                <div class="logo-container">
+                    <img src="Images/home-page/logo.png" alt="Ferlah Logo" class="logo-image load-anim-pop-in"> <!-- Pop in on load -->
+                </div>
+            </a>
+            <ul class="nav-links">
+                <li class="load-anim-slide-down load-delay-1"><a href="index.html">Home Page</a></li>
+                <li class="load-anim-slide-down load-delay-2"><a href="courses.html">Courses</a></li>
+                <li class="load-anim-slide-down load-delay-3"><a href="gallery.html">Gallery</a></li>
+                <li class="load-anim-slide-down load-delay-4"><a href="about.html">About us</a></li>
+                <li class="load-anim-slide-down load-delay-5"><a href="contact.html">Contact us</a></li>
+            </ul>
+            <button class="hamburger" id="hamburger-button" aria-label="Toggle navigation" aria-expanded="false">
+                <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <section class="about-banner">
+            <!-- Banner title will "pop" or "zoom" in -->
+            <h1 class="about-banner-title animate-on-scroll anim-zoom-in">About us</h1>
+        </section>
+
+        <section class="mission-vision-section">
+            <div class="container">
+                <div class="mission-vision-grid">
+                    <div class="mission-vision-text-column">
+                        <div class="content-card animate-on-scroll anim-slide-from-left">
+                            <h2 class="content-card-title">OUR MISSION</h2>
+                            <p class="content-card-description">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                tempor incididunt ut labore et dolore magna aliqua. Quis ipsum
+                            </p>
+                        </div>
+                        <div class="content-card animate-on-scroll anim-slide-from-left delay-1">
+                            <h2 class="content-card-title">OUR VISION</h2>
+                            <p class="content-card-description">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                tempor incididunt ut labore et dolore magna aliqua. Quis ipsum
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="mission-vision-image-column">
+                        <div class="image-overlap-wrapper">
+                            <div class="image-card image-mv-1 animate-on-scroll anim-rotate-fade-in delay-2">
+                                <img src="Images/home-page/dummy-500-700.png" alt="Our Mission relevant image">
+                            </div>
+                            <div class="image-card image-mv-2 animate-on-scroll anim-rotate-fade-in delay-3">
+                                <img src="Images/home-page/dummy-500-700.png" alt="Our Vision relevant image">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="experience-hero-section">
+            <div class="experience-content-wrapper">
+                <div class="experience-text-block">
+                    <h1 class="experience-title animate-on-scroll anim-slide-up">My Experience</h1>
+                    <p class="experience-description animate-on-scroll anim-slide-up-subtle delay-1">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Quis ipsum
+                        suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
+                    </p>
+                    <p class="experience-description animate-on-scroll anim-slide-up-subtle delay-2">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Quis ipsum
+                        suspendisse ultrices gravida.
+                    </p>
+                    <p class="experience-description animate-on-scroll anim-slide-up-subtle delay-3">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.
+                    </p>
+                    <div class="experience-social-links">
+                        <a href="YOUR_FACEBOOK_LINK_HERE" target="_blank" rel="noopener noreferrer" class="social-icon facebook-icon animate-on-scroll anim-pop-in delay-4" aria-label="Facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="YOUR_WHATSAPP_LINK_HERE" target="_blank" rel="noopener noreferrer" class="social-icon whatsapp-icon animate-on-scroll anim-pop-in delay-5" aria-label="WhatsApp">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                    </div>
+                </div>
+                 <!-- Placeholder for the "Dude" Image if you intend to use it here -->
+                 <!-- Make sure your about.css has styling for .experience-dude-image if this is used -->
+                <div class="experience-dude-image-container animate-on-scroll anim-slide-from-right delay-2">
+                     <!-- Assuming .experience-dude-image styling would make this an img tag container for positioning -->
+                    <img src="https://via.placeholder.com/400x600/C0C0C0/333?text=My+Image" alt="My Image" class="experience-dude-actual-image"> <!-- Add class for actual image styling -->
+                </div>
+            </div>
+        </section>
+        <!-- The duplicate HTML structure starting with <!DOCTYPE html> has been REMOVED from here -->
+    </main>
+
+    <footer class="site-footer">
+    <div class="container">
+        <div class="footer-grid">
+            <div class="footer-column animate-on-scroll anim-fade-in delay-1">
+                <h4 class="footer-title">About Us</h4>
+                <p class="footer-about-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Quis ipsum
+                    suspendisse ultrices gravida. lacus vel facilisis.
+                    <a href="about.html" class="read-more-link">(read more)</a>
+                </p>
+                <div class="social-icons">
+                    <a href="https://web.facebook.com/ferlafashion" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="#" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-column animate-on-scroll anim-fade-in delay-2">
+                <h4 class="footer-title">Affiliated Links</h4>
+                <ul class="footer-links">
+                    <li><a href="index.html">Home Page</a></li>
+                    <li><a href="courses.html">Courses</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-column animate-on-scroll anim-fade-in delay-3">
+                <h4 class="footer-title">Get in Touch</h4>
+                <ul class="footer-contact-info">
+                    <li>
+                        <i class="fas fa-phone-alt"></i>
+                        <span>+94 100 100 1000</span>
+                    </li>
+                    <li>
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>100/100 dummy rd, colombo 06</span>
+                    </li>
+                    <li>
+                        <i class="fas fa-envelope"></i>
+                        <span>info@ferlaapparel.com</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <hr class="footer-divider animate-on-scroll anim-fade-in delay-4">
+        <div class="footer-bottom animate-on-scroll anim-fade-in delay-5">
+            <p>© <span id="current-year">2023</span> Ferla Appare Tech. All Rights Reserved. Designed by <a href="https://viuzeres.com" target="_blank" rel="noopener noreferrer">Viuzeres</a></p>
+        </div>
+    </div>
+</footer>
+<script src="script/header.js"></script>
+<script src="script/homepage.js"></script> <!-- Re-using homepage.js for animations -->
+<script src="script/footer.js"></script>
+</body>
+</html>

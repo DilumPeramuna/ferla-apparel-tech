@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - Ferlah Apparel Tech</title>
+    <link rel="stylesheet" href="styles/header.css"> <!-- Base header (solid by default) -->
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/gallery.css">
+    <link rel="stylesheet" href="styles/animations.css"> <!-- General page animations -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+    <header> <!-- Will be solid as header-homepage-animation.css is not linked -->
+        <nav class="navbar">
+            <a href="index.html" class="logo-link">
+                <div class="logo-container">
+                    <img src="Images/home-page/logo.png" alt="Ferlah Logo" class="logo-image load-anim-pop-in">
+                </div>
+            </a>
+            <ul class="nav-links">
+                <li class="load-anim-slide-down load-delay-1"><a href="index.html">Home Page</a></li>
+                <li class="load-anim-slide-down load-delay-2"><a href="courses.html">Courses</a></li>
+                <li class="load-anim-slide-down load-delay-3"><a href="gallery.html" class="active-nav-link">Gallery</a></li>
+                <li class="load-anim-slide-down load-delay-4"><a href="about.html">About us</a></li>
+                <li class="load-anim-slide-down load-delay-5"><a href="contact.html">Contact us</a></li>
+            </ul>
+            <button class="hamburger" id="hamburger-button" aria-label="Toggle navigation" aria-expanded="false">
+                <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <section class="gallery-hero-section">
+            <div class="gallery-hero-content">
+                <h1 class="page-title animate-on-scroll anim-slide-down">Our Gallery</h1>
+                <p class="gallery-subtitle animate-on-scroll anim-slide-up delay-1">A glimpse into our world of creativity and craftsmanship.</p>
+            </div>
+        </section>
+
+        <div class="gallery-container">
+            <div class="gallery-grid">
+                <!-- Row 1 -->
+                <div class="gallery-item animate-on-scroll anim-zoom-in delay-1">
+                    <img src="Images/home-page/dummy-500-700.png" alt="Elegant Dress Design"> <!-- Replace with your image path -->
+                    <div class="image-overlay">
+                        <p>Elegant Dress Design</p>
+                    </div>
+                </div>
+                <div class="gallery-item animate-on-scroll anim-zoom-in delay-2">
+                    <img src="Images/home-page/dummy-500-700.png" alt="Fashion Illustration Sketch"> <!-- Replace with your image path -->
+                    <div class="image-overlay">
+                        <p>Fashion Illustration</p>
+                    </div>
+                </div>
+                <div class="gallery-item animate-on-scroll anim-zoom-in delay-3">
+                    <img src="Images/home-page/dummy-500-700.png" alt="Busy Design Studio"> <!-- Replace with your image path -->
+                    <div class="image-overlay">
+                        <p>Our Design Studio</p>
+                    </div>
+                </div>
+                <div class="gallery-item animate-on-scroll anim-zoom-in delay-4">
+                    <img src="Images/home-page/dummy-500-700.png" alt="Detailed Fabric Textures"> <!-- Replace with your image path -->
+                    <div class="image-overlay">
+                        <p>Intricate Fabrics</p>
+                    </div>
+                </div>
+
+                <!-- Row 2 -->
+                <div class="gallery-item animate-on-scroll anim-zoom-in delay-2">
+                    <img src="Images/home-page/dummy-500-700.png" alt="Student's Final Project"> <!-- Replace with your image path -->
+                    <div class="image-overlay">
+                        <p>Student Showcase</p>
+                    </div>
+                </div>
+                <div class="gallery-item animate-on-scroll anim-zoom-in delay-3">
+                    <img src="Images/home-page/dummy-500-700.png" alt="Sewing Machine in Action"> <!-- Replace with your image path -->
+                    <div class="image-overlay">
+                        <p>Apparel Technology</p>
+                    </div>
+                </div>
+                <div class="gallery-item animate-on-scroll anim-zoom-in delay-4">
+                    <img src="Images/home-page/dummy-500-700.png" alt="Close-up of Embroidery"> <!-- Replace with your image path -->
+                    <div class="image-overlay">
+                        <p>Craftsmanship Details</p>
+                    </div>
+                </div>
+                <div class="gallery-item animate-on-scroll anim-zoom-in delay-5">
+                    <img src="Images/home-page/dummy-500-700.png" alt="Collaborative Workshop"> <!-- Replace with your image path -->
+                    <div class="image-overlay">
+                        <p>Workshop Moments</p>
+                    </div>
+                </div>
+
+                <!-- Row 3 (Add more rows and items as needed) -->
+                <div class="gallery-item animate-on-scroll anim-zoom-in delay-3">
+                    <img src="Images/home-page/dummy-500-700.png" alt="Pattern Making Process">
+                    <div class="image-overlay">
+                        <p>Pattern Perfection</p>
+                    </div>
+                </div>
+                <div class="gallery-item animate-on-scroll anim-zoom-in delay-4">
+                    <img src="Images/home-page/dummy-500-700.png" alt="Model Wearing Student Design">
+                    <div class="image-overlay">
+                        <p>Runway Ready</p>
+                    </div>
+                </div>
+                <div class="gallery-item animate-on-scroll anim-zoom-in delay-5">
+                    <img src="Images/home-page/dummy-500-700.png" alt="Creative Moodboard">
+                    <div class="image-overlay">
+                        <p>Inspiration Board</p>
+                    </div>
+                </div>
+                <div class="gallery-item animate-on-scroll anim-zoom-in delay-6">
+                    <img src="Images/home-page/dummy-500-700.png" alt="Graduation Ceremony Apparel Showcase">
+                    <div class="image-overlay">
+                        <p>Celebrating Success</p>
+                    </div>
+                </div>
+
+                 <!-- Add more images following the pattern with delay-X and unique image paths -->
+
+            </div>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <!-- ... (Your existing footer content) ... -->
+         <div class="container">
+        <div class="footer-grid">
+            <div class="footer-column animate-on-scroll anim-fade-in delay-1">
+                <h4 class="footer-title">About Us</h4>
+                <p class="footer-about-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Quis ipsum
+                    suspendisse ultrices gravida. lacus vel facilisis.
+                    <a href="about.html" class="read-more-link">(read more)</a>
+                </p>
+                <div class="social-icons">
+                    <a href="https://web.facebook.com/ferlafashion" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="#" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-column animate-on-scroll anim-fade-in delay-2">
+                <h4 class="footer-title">Affiliated Links</h4>
+                <ul class="footer-links">
+                    <li><a href="index.html">Home Page</a></li>
+                    <li><a href="courses.html">Courses</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-column animate-on-scroll anim-fade-in delay-3">
+                <h4 class="footer-title">Get in Touch</h4>
+                <ul class="footer-contact-info">
+                    <li>
+                        <i class="fas fa-phone-alt"></i>
+                        <span>+94 100 100 1000</span>
+                    </li>
+                    <li>
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>100/100 dummy rd, colombo 06</span>
+                    </li>
+                    <li>
+                        <i class="fas fa-envelope"></i>
+                        <span>info@ferlaapparel.com</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <hr class="footer-divider animate-on-scroll anim-fade-in delay-4">
+        <div class="footer-bottom animate-on-scroll anim-fade-in delay-5">
+            <p>© <span id="current-year">2023</span> Ferla Appare Tech. All Rights Reserved. Designed by <a href="https://viuzeres.com" target="_blank" rel="noopener noreferrer">Viuzeres</a></p>
+        </div>
+    </div>
+    </footer>
+
+    <script src="script/header.js"></script>
+    <script src="script/homepage.js"></script> <!-- For scroll animations -->
+    <script src="script/footer.js"></script>
+</body>
+</html>

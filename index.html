@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ferlah Apparel Tech</title>
+    <link rel="stylesheet" href="styles/header.css"> <!-- Base header styles -->
+    <link rel="stylesheet" href="styles/header-homepage-animation.css"> <!-- HOMEPAGE ONLY: Header animation -->
+    <link rel="stylesheet" href="styles/homepage.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/animations.css"> <!-- General page animations -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+    <header class="header-transparent"> <!-- Start with transparent for JS to manage -->
+        <nav class="navbar">
+            <a href="index.html" class="logo-link">
+                <div class="logo-container">
+                    <img src="Images/home-page/logo.png" alt="Ferlah Logo" class="logo-image load-anim-pop-in">
+                </div>
+            </a>
+            <ul class="nav-links">
+                <li class="load-anim-slide-down load-delay-1"><a href="index.html">Home Page</a></li>
+                <li class="load-anim-slide-down load-delay-2"><a href="courses.html">Courses</a></li>
+                <li class="load-anim-slide-down load-delay-3"><a href="gallery.html">Gallery</a></li>
+                <li class="load-anim-slide-down load-delay-4"><a href="about.html">About us</a></li>
+                <li class="load-anim-slide-down load-delay-5"><a href="contact.html">Contact us</a></li>
+            </ul>
+            <button class="hamburger" id="hamburger-button" aria-label="Toggle navigation" aria-expanded="false">
+                <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+           <section class="hero-section-wrapper" id="home">
+                <div class="hero-section">
+                    <div class="hero-text-content">
+                        <p class="hero-welcome load-anim-slide-from-left-hero load-delay-2">WELCOME TO</p>
+                        <h1 class="hero-title load-anim-slide-from-right-hero load-delay-3">Ferla Apperal Tech</h1>
+                        <p class="hero-subtitle load-anim-slide-from-left-hero load-delay-4">
+                            with over 40 years of sewing experience<br>
+                            and 30 years of teaching experience
+                        </p>
+                    </div>
+
+                    <!-- Hero items (beanie, shirt, etc.) keep their .load-anim-hero-item animation -->
+                    <div class="hero-item beanie-item load-anim-hero-item load-delay-5">
+                        <img src="Images/home-page/hero/beenie.png" alt="Beige Beanie">
+                    </div>
+                    <div class="hero-item shirt-item load-anim-hero-item load-delay-6">
+                        <img src="Images/home-page/hero/blueshirt.png" alt="Blue Shirt">
+                    </div>
+                    <div class="hero-item turtleneck-item load-anim-hero-item load-delay-7">
+                        <img src="Images/home-page/hero/turtleneck.png" alt="Beige Turtleneck">
+                    </div>
+                </div>
+            </section>
+            <section class="courses-promo-section" id="courses">
+                <div class="container">
+                    <div class="courses-promo-content">
+                        <div class="courses-promo-text">
+                            <h2 class="section-title animate-on-scroll anim-slide-from-left">Our Courses</h2>
+                            <p class="section-description animate-on-scroll anim-slide-from-left-subtle delay-1">
+                                Kickstart your journey in creative design with our Diplomas in Clothing
+                                Design and Product Development while mastering styling and design
+                                techniques to create innovative new designs and gain confidence in
+                                tackling real-world assignments to satisfy any buyer at once.
+                            </p>
+                            <a href="courses.html" class="btn btn-learn-more animate-on-scroll anim-bounce-in-bottom delay-2">
+                                Go to Our Courses<span class="arrow">→</span>
+                            </a>
+                        </div>
+                        <div class="courses-promo-images">
+                            <div class="image-wrapper image-1 animate-on-scroll anim-rotate-fade-in delay-2">
+                                <img src="Images/home-page/dummy-500-700.png"
+                                    alt="Young woman with red hair in fashion setting">
+                            </div>
+                            <div class="image-wrapper image-2 animate-on-scroll anim-rotate-fade-in delay-3">
+                                <img src="Images/home-page/dummy-500-700.png"
+                                    alt="Woman in yellow tracksuit outdoors">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="products-showcase-section">
+                <div class="container">
+                    <h2 class="section-title text-center animate-on-scroll anim-zoom-in">Our Student's Creations</h2>
+                </div>
+                <div class="product-slider-container animate-on-scroll anim-slide-up delay-1">
+                    <button class="slider-arrow prev-arrow" aria-label="Previous products">
+                        <i class="fas fa-arrow-left"></i>
+                    </button>
+                    <div class="product-slider-viewport">
+                        <div class="product-slider-track">
+                            <div class="product-slide-item animate-on-scroll anim-pop-in delay-1">
+                                <img src="Images/home-page/dummy-500-700.png" alt="Product 1">
+                            </div>
+                            <div class="product-slide-item animate-on-scroll anim-pop-in delay-2">
+                                <img src="Images/home-page/dummy-500-700.png" alt="Product 2">
+                            </div>
+                            <div class="product-slide-item animate-on-scroll anim-pop-in delay-3">
+                                <img src="Images/home-page/dummy-500-700.png" alt="Product 3">
+                            </div>
+                            <div class="product-slide-item animate-on-scroll anim-pop-in delay-4">
+                                <img src="Images/home-page/dummy-500-700.png" alt="Product 4">
+                            </div>
+                            <div class="product-slide-item animate-on-scroll anim-pop-in delay-5">
+                                <img src="Images/home-page/dummy-500-700.png" alt="Product 5">
+                            </div>
+                            <div class="product-slide-item animate-on-scroll anim-pop-in delay-6">
+                                <img src="Images/home-page/dummy-500-700.png" alt="Product 6">
+                            </div>
+                            <div class="product-slide-item animate-on-scroll anim-pop-in delay-7">
+                                <img src="Images/home-page/dummy-500-700.png" alt="Product 7">
+                            </div>
+                            <div class="product-slide-item animate-on-scroll anim-pop-in delay-8">
+                                <img src="Images/home-page/dummy-500-700.png" alt="Product 8">
+                            </div>
+                        </div>
+                    </div>
+                    <button class="slider-arrow next-arrow" aria-label="Next products">
+                        <i class="fas fa-arrow-right"></i>
+                    </button>
+                </div>
+            </section>
+
+            <section class="about-us-section" id="about">
+                <div class="container">
+                    <div class="about-us-content">
+                        <div class="about-us-text">
+                            <h2 class="section-title animate-on-scroll anim-slide-from-right">About Ferla Appare Tech</h2>
+                            <p class="section-description animate-on-scroll anim-slide-from-right-subtle delay-1">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                tempor incididunt ut labore et dolore magna aliqua. Quis ipsum
+                                suspendisse ultrices gravida. Risus commodo viverra maecenas
+                                accumsan lacus vel facilisis.
+                            </p>
+                            <p class="section-description animate-on-scroll anim-slide-from-right-subtle delay-2">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                tempor incididunt ut labore et dolore magna aliqua. Quis ipsum
+                                suspendisse ultrices gravida.
+                            </p>
+                            <a href="about.html" class="btn btn-learn-more animate-on-scroll anim-pop-in delay-3">
+                                Learn More <span class="arrow">→</span>
+                            </a>
+                        </div>
+                        <div class="about-us-images">
+                            <div class="image-wrapper image-about-1 animate-on-scroll anim-slide-from-left delay-3">
+                                <img src="Images/home-page/dummy-500-700.png"
+                                     alt="Fashion scene or person - Tall">
+                            </div>
+                            <div class="image-wrapper image-about-2 animate-on-scroll anim-slide-from-left-subtle delay-4">
+                                <img src="Images/home-page/dummy-500-700.png"
+                                     alt="Fashion scene or person - Wide">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="why-us-section">
+                <div class="container">
+                    <h2 class="section-title text-center animate-on-scroll anim-bounce-in-bottom">Why Ferla Appare Tech?</h2>
+                    <div class="why-us-grid">
+                        <div class="why-us-item animate-on-scroll anim-cascade-up delay-1">
+                            <div class="why-us-icon-wrapper">
+                                <i class="fas fa-compass-drafting"></i>
+                            </div>
+                            <h3 class="why-us-title">Fundamentals</h3>
+                            <p class="why-us-description">
+                                Discover the joy of sewing in no time by mastering the essential skills!
+                            </p>
+                        </div>
+                        <div class="why-us-item animate-on-scroll anim-cascade-up delay-2">
+                            <div class="why-us-icon-wrapper">
+                                <i class="fas fa-scissors"></i>
+                            </div>
+                            <h3 class="why-us-title">Technique</h3>
+                            <p class="why-us-description">
+                                Unleash the power of specific techniques that will supercharge your clothing-making skills and take your creativity to new heights!
+                            </p>
+                        </div>
+                        <div class="why-us-item animate-on-scroll anim-cascade-up delay-3">
+                            <div class="why-us-icon-wrapper">
+                                <i class="fas fa-paint-brush"></i>
+                            </div>
+                            <h3 class="why-us-title">Expression</h3>
+                            <p class="why-us-description">
+                                Design and create the amazing clothes you've always wanted to wear, showcasing your one-of-a-kind individuality!
+                            </p>
+                        </div>
+                        <div class="why-us-item animate-on-scroll anim-cascade-up delay-4">
+                            <div class="why-us-icon-wrapper">
+                                <i class="fas fa-hand-holding-heart"></i>
+                            </div>
+                            <h3 class="why-us-title">Confidence</h3>
+                            <p class="why-us-description">
+                                Say goodbye to frustration and hello to confidence the instant you join us!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="stats-section">
+                <div class="container">
+                    <div class="stats-grid">
+                        <div class="stat-item animate-on-scroll anim-quick-fade">
+                            <div class="stat-number" data-target="100">0</div>
+                            <span class="stat-plus">+</span>
+                            <p class="stat-label">Students since launch</p>
+                        </div>
+                        <div class="stat-item animate-on-scroll anim-quick-fade delay-1">
+                            <div class="stat-number" data-target="50">0</div>
+                            <span class="stat-plus">+</span>
+                            <p class="stat-label">years of experience</p>
+                        </div>
+                        <div class="stat-item animate-on-scroll anim-quick-fade delay-2">
+                            <div class="stat-number" data-target="250">0</div>
+                            <span class="stat-plus">+</span>
+                            <p class="stat-label">Projects Completed</p>
+                        </div>
+                        <div class="stat-item animate-on-scroll anim-quick-fade delay-3">
+                            <div class="stat-number" data-target="98">0</div>
+                            <span class="stat-plus">%</span>
+                            <p class="stat-label">Client Satisfaction</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+    </main>
+
+<footer class="site-footer">
+    <div class="container">
+        <div class="footer-grid">
+            <div class="footer-column animate-on-scroll anim-fade-in delay-1">
+                <h4 class="footer-title">About Us</h4>
+                <p class="footer-about-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Quis ipsum
+                    suspendisse ultrices gravida. lacus vel facilisis.
+                    <a href="about.html" class="read-more-link">(read more)</a>
+                </p>
+                <div class="social-icons">
+                    <a href="https://web.facebook.com/ferlafashion" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="#" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-column animate-on-scroll anim-fade-in delay-2">
+                <h4 class="footer-title">Affiliated Links</h4>
+                <ul class="footer-links">
+                    <li><a href="index.html">Home Page</a></li>
+                    <li><a href="courses.html">Courses</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-column animate-on-scroll anim-fade-in delay-3">
+                <h4 class="footer-title">Get in Touch</h4>
+                <ul class="footer-contact-info">
+                    <li>
+                        <i class="fas fa-phone-alt"></i>
+                        <span>+94 100 100 1000</span>
+                    </li>
+                    <li>
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>100/100 dummy rd, colombo 06</span>
+                    </li>
+                    <li>
+                        <i class="fas fa-envelope"></i>
+                        <span>info@ferlaapparel.com</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <hr class="footer-divider animate-on-scroll anim-fade-in delay-4">
+        <div class="footer-bottom animate-on-scroll anim-fade-in delay-5">
+            <p>© <span id="current-year">2023</span> Ferla Appare Tech. All Rights Reserved. Designed by <a href="https://viuzeres.com" target="_blank" rel="noopener noreferrer">Viuzeres</a></p>
+        </div>
+    </div>
+</footer>
+<script src="script/header.js"></script>
+<script src="script/homepage.js"></script>
+<script src="script/footer.js"></script>
+</body>
+</html>
